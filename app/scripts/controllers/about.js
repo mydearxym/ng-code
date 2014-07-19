@@ -7,11 +7,26 @@
  * # AboutCtrl
  * Controller of the functestApp
  */
-angular.module('functestApp')
-  .controller('AboutCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+
+require(["functestApp"], function(app) {
+ 	console.log("about.js");
+
+ 	app.controller('AboutCtrl', function ($scope) {
+ 		$scope.awesomeThings = [
+ 		'HTML5 Boilerplate',
+ 		'AngularJS',
+ 		'Karma'
+ 		];
   });
+
+});
+
+
+// angular.module('functestApp')
+//   .controller('AboutCtrl', function ($scope) {
+//     $scope.awesomeThings = [
+//       'HTML5 Boilerplate',
+//       'AngularJS',
+//       'Karma'
+//     ];
+//   });

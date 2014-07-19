@@ -13,7 +13,19 @@
     > 安装测试用的 karma
     
 
+   ** 配置 require.js (参考: http://webdesignporto.com/3-steps-to-fully-automatized-javascript-environment-with-yeoman-and-require-js-for-lazy-people/)
+      > bower install requirejs --save 
+      > angular & requirejs http://kielczewski.eu/2013/04/integrating-angularjs-with-requirejs/
+      > 
+      > 
 
+
+
+    ** bower 使用与操作 ： http://blog.fens.me/nodejs-bower-intro/
+    ** grunt 使用: 
+       > 把grunt和grunt插件加入一个已经存在的package.json 文件最简单的方式就是使用 
+         npm install <module> --save-dev 命令
+       > 
 
 
 
