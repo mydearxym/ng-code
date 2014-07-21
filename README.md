@@ -16,8 +16,6 @@
    ** 配置 require.js (参考: http://webdesignporto.com/3-steps-to-fully-automatized-javascript-environment-with-yeoman-and-require-js-for-lazy-people/)
       > bower install requirejs --save 
       > angular & requirejs http://kielczewski.eu/2013/04/integrating-angularjs-with-requirejs/
-      > 
-      > 
 
 
 
